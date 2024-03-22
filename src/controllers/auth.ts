@@ -57,6 +57,7 @@ export const authenticate = async (
             id: user.id,
             username: user.username,
           })
+          return
         }
       }
 
